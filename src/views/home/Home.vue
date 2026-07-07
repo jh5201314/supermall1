@@ -9,10 +9,7 @@
 import NavBar from "components/common/navbar/NavBar"
 import HomeSwiper from './childComps/HomeSwiper.vue'
 import RecommendView from './childComps/RecommendView.vue'
-
 import { getHomeMultidata } from "network/home"
-
-
 export default {
   name:'Home',
   components:{
@@ -40,8 +37,5 @@ export default {
 }
 </script>
 <style scoped>
-.home-nav{
-  background-color: var(--color-tint);
-  color: #fff;
-}
+
 </style>>
